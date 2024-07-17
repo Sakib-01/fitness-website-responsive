@@ -248,3 +248,39 @@ h1 span{
 
 
 /* Habbit style end */
+
+
+/* banner style start */
+
+.run-content{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);    
+}
+.run-container-text{
+    width: 45%;
+    padding: 20px;
+    margin-left: 50px;
+}
+.run-container-text p{
+    margin-bottom: 24px;
+}
+.run-container-image {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden; 
+}
+
+.run-container-image img {
+    width: 366px;
+    height: 312px;
+    border-radius: 16px; 
+    margin: 30px;
+}
+
+/* nav bar style end */
+
+

@@ -97,4 +97,28 @@
 
     /* Habbit style end */
 
+    /* Run section style end */
+
+    .run-content{
+        width: 95%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .run-container-text{
+        width: 100%;
+        margin: 0px auto;
+        text-align: left;
+    }
+    .run-container-text button{
+        width: 100%;
+        margin: 0px auto;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    /* Run section style end */
+
 }
