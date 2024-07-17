@@ -1,0 +1,60 @@
+@media screen and (max-width: 431px) {
+
+    .header-body{
+        width: 95%;
+        margin: 0px auto;
+    }
+    .btn-R {
+        display: block;
+    }
+
+    .nav-option {
+        display: none;
+    }
+
+    /* banner section style */
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .banner-text{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .banner-text h1{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .banner-btn{
+        width: 100%;
+    }
+    .banner-btn > .btn-primary,.btn-secondary{
+        width: 45%;
+        margin: 0px 8px;
+    }
+
+    .banner-image img {
+        width: 100%;
+        margin: 0px auto;
+        position: relative;
+    }
+
+    .banner-card1{
+        position: absolute;
+        top: 82%;
+        right:0%;
+    }
+    .banner-card2{
+        position: absolute;
+        top: 103%;
+        right: 45%;
+        left: 5%;
+
+    }
+    .card2-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
