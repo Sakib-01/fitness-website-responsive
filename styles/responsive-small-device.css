@@ -57,4 +57,44 @@
         justify-content: center;
         align-items: center;
     }
+
+/* Habbit style end */
+
+    .habbit-content h2{
+        width: 100%;
+        height: auto;
+        font-size: 38px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .habbit-content p{
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .habbit-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .habbit-card-item{
+        width: 100%;
+        height: auto;
+    }
+    .habbit-card-item img{
+        width: 80%;
+        margin: 0px auto 14px;
+    }
+    .habbit-card-item h6{  
+        font-size: 28px;    
+        font-weight: 600;
+    }
+    .habbit-card-item p{ 
+        font-size: 24px;    
+    }
+
+
+    /* Habbit style end */
+
 }

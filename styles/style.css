@@ -12,6 +12,13 @@ body{
     background-color: black;
 }
 
+h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;    
+    font-size: 48px;
+    font-weight: 900;  
+    margin: 14px auto;  
+}
 
 p{
     color: rgba(255, 255, 255, 0.5);
@@ -103,6 +110,9 @@ p{
 
 /* nav bar style end */
 
+
+/* banner style start */
+
 .banner-content{
     display: flex;
     justify-content: space-between;
@@ -179,4 +189,62 @@ h1 span{
 }
 
 
-/* nav bar style end */
+/* Banner style end */
+
+/* Habbit style end */
+
+.habbit-content{
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+.habbit-content p{
+    width: 671px;
+    height: 48px;
+    text-align: center;
+}
+
+.habbit-card{
+    width: 100%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.habbit-card-item{
+    /* border: 2px solid red; */
+    width: 231px;
+    height: 334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.habbit-card-item img{
+    border-radius: 50%;
+    margin-bottom: 14px;
+}
+.habbit-card-item h6{
+    color: rgb(255, 255, 255);
+    font-family: Inter;    
+    font-size: 18px;    
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.habbit-card-item p{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;    
+    font-size: 14px;    
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+
+/* Habbit style end */
