@@ -289,4 +289,136 @@ h1 span{
 
 /* nav bar style end */
 
+/* Training style end */
 
+.Training-content{
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+.Training-content p{
+    width: 671px;
+    height: 48px;
+    text-align: center;
+}
+
+.Training-card {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 0px;
+}
+
+.Training-card-item {
+    width: 100%;
+    height: 210px;
+    position: relative;
+}
+
+.Training-card-item-1 {
+    grid-column: span 3;
+    grid-row: span 6;
+    background-image: url('../images/exercise1.jpg'), linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 210px;
+    position: relative;
+}
+
+.Training-card-item-2 {
+    grid-column: span 6;
+    grid-row: span 6;
+    background-image: url('../images/exercise2.png'), linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 210px;
+    position: relative;
+}
+
+.Training-card-item-3 {
+    grid-column: span 3;
+    grid-row: span 6;
+    background-image: url('../images/exercise3.png'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 210px;
+    position: relative;
+}
+
+.Training-card-item-4 {
+    grid-column: span 5;
+    grid-row: span 6;
+    background-image: url('../images/exercise4.png'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 210px;
+    position: relative;
+}
+
+.Training-card-item-5 {
+    grid-column: span 3;
+    grid-row: span 6;
+    background-image: url('../images/exercise5.jpg'), linear-gradient(rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 210px;
+    position: relative;
+}
+
+.Training-card-item-6 {
+    grid-column: span 4;
+    grid-row: span 6;
+    background-image: url('../images/exercise6.jpg'), linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 210px;
+    position: relative;
+}
+
+/* .Training-card-item{
+    border: 2px solid red;
+    width: 231px;
+    height: 334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+/* .Training-card-item img{
+    width: 100%;
+} */
+.Training-card-item h6{
+    color: rgb(255, 255, 255);
+    font-family: Inter;    
+    font-size: 18px;    
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.Training-card-item p{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;    
+    font-size: 14px;    
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+
+/* Training style end */
