@@ -34,12 +34,13 @@
 
     .banner-card1{
         position: absolute;
-        top: 10%;
-        right:-5%;
+        top: 4rem;
+        right:-15%;
+        left: 55%;
     }
     .banner-card2{
         position: absolute;
-        top: 60%;
+        bottom: 10rem;
         right: 62%;
         left: -20%;
 

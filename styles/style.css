@@ -118,7 +118,7 @@ p{
     justify-content: space-between;
 }
 .banner-text{
-    width: 50%;
+    width: 60%;
     text-align: left;
 }
 .banner-text{
@@ -145,22 +145,28 @@ h1 span{
     font-weight: 400;
     margin-bottom: 24px;
 }
+.banner-image{
+    margin: 0px 10px;
+    position: relative;
+    border: 2px solid red;
+}
 
 .banner-image img{
-    width: 349px;
-    height: 580px;
-    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 349px;
+    max-height: 580px;
 }
 .banner-card1{
     position: absolute;
-    top: 48%;
-    right: 6%;
+    top: 10rem;
+    right: -30%;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1); 
     color: white;   
-    padding: 10px 16px;
+    padding: 1rem 1.5rem;
 }
 .banner-card2{
     position: absolute;
@@ -168,8 +174,8 @@ h1 span{
     justify-content: center;
     align-items: center;
     gap: 16px;
-    top: 88%;
-    right: 28%;
+    bottom: 4.5rem;
+    left: -28%;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);

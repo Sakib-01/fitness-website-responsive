@@ -34,22 +34,27 @@
         margin: 0px 8px;
     }
 
-    .banner-image img {
+    .banner-image {
         width: 100%;
         margin: 0px auto;
         position: relative;
     }
 
+    .banner-image img {
+        width: 100%;
+        margin: 0px auto;
+    }
+
     .banner-card1{
         position: absolute;
-        top: 82%;
+        top: 4rem;
         right:0%;
+        left:50%;
     }
     .banner-card2{
         position: absolute;
-        top: 103%;
-        right: 45%;
-        left: 5%;
+        bottom:17rem;
+        left: 0%;
 
     }
     .card2-icon{
