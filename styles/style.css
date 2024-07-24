@@ -27,13 +27,7 @@ p{
     font-weight: 400;
 }
 
-.body-container{
-    border: 2px solid red;
-    max-width: 1060px;
-    margin: 0 auto;
-}
-
-.header-body{
+.header-body ,.footer-body{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 
@@ -200,6 +194,7 @@ h1 span{
 /* Habbit style end */
 
 .habbit-content{
+    max-width: 1060px;
     margin: 100px auto;
     display: flex;
     flex-direction: column;
@@ -259,6 +254,8 @@ h1 span{
 /* banner style start */
 
 .run-content{
+    max-width: 1060px;
+    margin: 0 auto;
     border: 2px solid red;
     display: flex;
     justify-content: space-between;
@@ -292,14 +289,15 @@ h1 span{
 /* Training style end */
 
 .Training-content{
-    margin: 100px 0;
+    max-width: 1060px;
+    margin: 100px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
     gap: 48px;
 }
-.Training-content h2, p{
+.Training-content h2,.Training-content p{
     margin-left:1rem;
 }
 
@@ -416,7 +414,374 @@ h1 span{
     padding: 1.2rem;
 }
 
-
-
-
 /* Training style end */
+
+
+/* BMI style start */
+
+.BMI-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.BMI-card{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-evenly;
+    margin: 0px 50px;
+    background-color: rgb(34, 34, 34);
+}
+
+.BMI-chart{
+    width: 40%;
+    margin: 20px auto 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.BMI-text h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;    
+    font-size: 1.5rem;    
+    font-weight: 900;   
+    margin: 3rem 0; 
+}
+table{
+    border: 1px solid white;
+    color: white;
+    padding: .5rem;
+}
+table th, td{
+    padding: .5rem;
+}
+
+.BMI-input{
+    width: 75%;
+    margin: 40px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+.BMI-input h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;    
+    font-size: 1.5rem;    
+    font-weight: 900;   
+    margin: 1rem 0; 
+}
+
+.input-field{
+    width: 100%;
+    margin: 2rem 0rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;    
+    font-size: 16px;    
+    font-weight: 400;
+}
+
+.input-1 input ,.input-2 input ,.input-2 select{
+    width: 48%;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;    
+    font-size: 16px;    
+    font-weight: 400;
+}
+.input-3 select{
+    width: 97%;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;    
+    font-size: 16px;    
+    font-weight: 400;
+}
+
+/* BMI style end */
+
+/* Team style start */
+
+.Team-content{
+    max-width: 1060px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 48px;
+    padding: 4rem 0;
+}
+.Team-content h2,.Team-content p{
+    width: 80%;
+    margin:0 auto;
+}
+
+
+.Team-card {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+}
+
+.Team-card-item {
+    border: 2px solid blue;
+    width: 100%;
+    height: 270px;
+    border-radius: 18px;
+    position: relative;
+}
+
+.Team-card img { 
+    border-radius: 18px;
+    width: 100%;
+    height:270px;
+}
+
+.Team-card h6{
+    position: absolute;
+    bottom: 2rem;
+    left: 3rem;
+    color: white;
+    font-size: 1.5rem;    
+    font-weight: 900;  
+}
+
+.Team-card p{
+    position: absolute;
+    bottom: .7rem;
+    left: 3rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;    
+    font-size: 1rem;    
+    font-weight: 400;
+}
+
+
+/* Team style end */
+
+/* My container (FAQ content)  style start */
+
+
+#bg-image{
+    width: 100%;
+    margin: 0px auto;
+    background-image: linear-gradient(rgba(33, 4, 69, 0.812), rgba(19, 5, 68, 0.669)), 
+    url("../images/my-section.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.my-container{
+    text-align: center;
+    color:white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+
+/* .BMI-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0px 200px;
+    text-align: center;
+} */
+
+.my-card {
+    max-width: 1080px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;  
+}
+
+.FAQ-box {
+    border: 2px solid red;
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    border-radius: 18px;
+    background: rgba(34, 34, 34, 0.5);    
+}
+.previous,.next{ 
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:center;
+    align-items: center; 
+    text-align: center;
+}
+
+.FAQ-text img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+.FAQ-text h4 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;    
+    font-size: 1.5rem;    
+    font-weight: 900;   
+    margin: 1rem 2rem; 
+}
+
+.FAQ-text p {
+    color: rgb(255, 255, 255);
+    font-family: Inter;    
+    font-size: 1rem;    
+    font-weight: 400;   
+    margin: 1rem 2rem; 
+}
+
+.FAQ-input {
+    border: 2px solid rgb(111, 0, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+}
+.FAQ-input h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;    
+    font-size: 1.5rem;    
+    font-weight: 900;   
+    margin: 1rem 0; 
+}
+
+.input-field{
+    width: 100%;
+    margin: 2rem 0rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;    
+    font-size: 16px;    
+    font-weight: 400;
+}
+
+.input-1 input ,.input-2 input{
+    width: 80%;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;    
+    font-size: 16px;    
+    font-weight: 400;
+}
+
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; 
+    background: rgba(255, 255, 255, 0.1);
+        padding: 1rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;    
+    font-size: 16px;    
+    font-weight: 400;
+    
+}
+.FAQ-hr{
+    width: 70%;
+    margin: 20px auto;
+
+}
+.join-meeting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+.join-meeting p{
+    margin-bottom: 20px;
+}
+
+
+
+
+/* My container (FAQ content)  style start */
+
+/* footer style start */
+
+.footer-container{
+    border: 2px solid blue;
+    height: 500px;
+    max-width: 1060px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    justify-content: space-between;
+    gap: 24px;
+}
+.footer-card-1,.footer-card-2,.footer-card-3{
+    border: 2px solid red;
+    grid-column: span 4;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;    
+    font-size: 1rem;    
+    font-weight: 400;
+    padding-top:5rem ;
+    padding-left: 1rem;
+}
+
+.footer-card-2 li,.footer-card-3 li{
+    list-style: none;
+    font-weight: 600;
+}
+
+hr{
+    max-width: 1060px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.copyright{
+    border: 2px solid red;
+    max-width: 1060px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 1rem;
+}
+/* footer style end */

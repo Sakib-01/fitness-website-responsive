@@ -97,4 +97,57 @@
     }
 
     /* Run section style end */
+
+       /* BMI style start */
+
+       .BMI-content{
+        width: 100%;
+        height: auto;
+        margin: 0px auto;
+    }
+    .BMI-card{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .BMI-text h4{
+        margin-left: 1rem;
+    }
+    .BMI-chart{
+        width: 50%;
+        margin: 0px;
+    }
+
+    .BMI-input{
+        width: 95%;
+        margin: 2rem 1rem;
+    }
+
+    /* BMI style start */
+
+/* footer style start */
+    .footer-container{
+        width: 100%;
+        height: auto;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        justify-content: space-between;
+        gap: 24px;
+    }
+    
+    .footer-card-1{
+        border: 2px solid red;
+        grid-column: span 12;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+.footer-card-2,.footer-card-3{
+        border: 2px solid red;
+        grid-column: span 6;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+/* footer style end */
 }

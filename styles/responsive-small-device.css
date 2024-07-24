@@ -123,10 +123,16 @@
         font-size: 18px;
         font-weight: 600;
     }
+    .run-container-image img {
+        width: 100%;
+        height: 312px;
+        border-radius: 16px;
+        margin: 0;
+    }
     
     /* Run section style end */
 
-    /* TTraining section style start */
+    /* Training section style start */
 
     .Training-card {
         display: grid;
@@ -166,6 +172,72 @@
         grid-row: span 4;
     }
 
-    /* TTraining section style end */
+    /* Training section style end */
 
+
+    /* BMI style start */
+
+    .BMI-content{
+        width: 100%;
+        height: auto;
+        margin: 0px auto;
+    }
+    .BMI-card{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .BMI-text h4{
+        margin-left: 1rem;
+    }
+    .BMI-chart{
+        width: 98%;
+        margin: 0px auto;
+    }
+
+    .BMI-input{
+        width: 95%;
+        margin: 2rem 1rem;
+    }
+
+    /* BMI style start */
+
+    /* Team style start */
+    
+    .Team-card {
+        border: 2px solid red;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+
+/* Team style end */
+
+
+
+.my-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+}
+
+/* footer style start */
+.footer-container{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.footer-card-1,.footer-card-2,.footer-card-3{
+    border: 2px solid red;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+/* footer style end */
 }
