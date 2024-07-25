@@ -15,7 +15,7 @@ body{
 h2{
     color: rgb(255, 255, 255);
     font-family: Inter;    
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;  
     margin: 14px auto;  
 }
@@ -32,9 +32,9 @@ p{
 }
 
 .body-background{
-    border: 2px solid red;
     max-width: 1060px;
-    margin: 0 auto;    
+    margin: 0 auto;
+    padding: 1rem;    
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 
@@ -43,7 +43,7 @@ p{
     border-radius: 42px;
     background: rgb(230, 83, 60);
     color: white;
-    padding: 16px 40px 16px 40px;
+    padding: 1rem 2.5rem;
     border: none;
     margin-right: 16px;
     
@@ -52,7 +52,7 @@ p{
     border-radius: 42px;
     background: transparent;
     color: white;
-    padding: 16px 40px 16px 40px;
+    padding: 1rem 2.5rem;
     border: 1px solid white;
     
 }
@@ -68,7 +68,7 @@ p{
 .nav-content h1{
     color: rgb(230, 83, 60);
     font-family: Inter;    
-    font-size: 36px;    
+    font-size: 2.2rem;    
     font-weight: 800;
 } 
 
@@ -137,12 +137,11 @@ h1 span{
     font-family: Inter;    
     font-size: 1rem;    
     font-weight: 400;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 .banner-image{
     margin: 0px 10px;
     position: relative;
-    border: 2px solid red;
 }
 
 .banner-image img{
@@ -232,7 +231,7 @@ h1 span{
 .habbit-card-item h6{
     color: rgb(255, 255, 255);
     font-family: Inter;    
-    font-size: 18px;    
+    font-size: 1.1rem;    
     font-weight: 600;
     text-align: center;
     margin-bottom: 14px;
@@ -241,7 +240,7 @@ h1 span{
     width: 100%;
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;    
-    font-size: 14px;    
+    font-size: 0.9rem;    
     font-weight: 400;
     text-align: center;
     margin-bottom: 14px;
@@ -251,12 +250,11 @@ h1 span{
 /* Habbit style end */
 
 
-/* banner style start */
+/* Run section style start */
 
 .run-content{
     max-width: 1060px;
     margin: 0 auto;
-    border: 2px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -284,7 +282,7 @@ h1 span{
     margin: 30px;
 }
 
-/* nav bar style end */
+/* Run section style end */
 
 /* Training style end */
 
@@ -458,9 +456,11 @@ table{
     border: 1px solid white;
     color: white;
     padding: .5rem;
+    border-collapse: collapse;
 }
 table th, td{
     padding: .5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .BMI-input{
@@ -484,7 +484,7 @@ table th, td{
     margin: 2rem 0rem;
     color: rgba(255, 255, 255, 0.6);
     font-family: Inter;    
-    font-size: 16px;    
+    font-size: 1rem;    
     font-weight: 400;
 }
 
@@ -498,7 +498,7 @@ table th, td{
     margin-bottom: 1rem;
     color: rgba(255, 255, 255, 0.6);
     font-family: Inter;    
-    font-size: 16px;    
+    font-size: 1rem;    
     font-weight: 400;
 }
 .input-3 select{
@@ -511,7 +511,7 @@ table th, td{
     margin-bottom: 1rem;
     color: rgba(255, 255, 255, 0.6);
     font-family: Inter;    
-    font-size: 16px;    
+    font-size: 1rem;    
     font-weight: 400;
 }
 
@@ -536,7 +536,6 @@ table th, td{
 
 
 .Team-card {
-    border: 2px solid red;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -546,7 +545,6 @@ table th, td{
 }
 
 .Team-card-item {
-    border: 2px solid blue;
     width: 100%;
     height: 270px;
     border-radius: 18px;
@@ -581,6 +579,8 @@ table th, td{
 
 /* Team style end */
 
+
+
 /* My container (FAQ content)  style start */
 
 
@@ -605,17 +605,11 @@ table th, td{
     padding: 50px 0px;
     text-align: center;
 }
+.my-container p{
+    width: 90%;
+    margin: 0px auto;
 
-
-/* .BMI-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    margin: 0px 200px;
-    text-align: center;
-} */
+}
 
 .my-card {
     max-width: 1080px;
@@ -626,7 +620,7 @@ table th, td{
 }
 
 .FAQ-box {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     padding: 3rem;
     display: flex;
@@ -666,7 +660,7 @@ table th, td{
 }
 
 .FAQ-input {
-    border: 2px solid rgb(111, 0, 255);
+    /* border: 2px solid rgb(111, 0, 255); */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -682,7 +676,7 @@ table th, td{
     margin: 1rem 0; 
 }
 
-.input-field{
+.FAQ-input-field{
     width: 100%;
     margin: 2rem 0rem;
     color: rgba(255, 255, 255, 0.6);
@@ -691,7 +685,7 @@ table th, td{
     font-weight: 400;
 }
 
-.input-1 input ,.input-2 input{
+.FAQ-input-1 input,.FAQ-input-2 input{
     width: 80%;
     height: 48px;
     border: none;
@@ -699,7 +693,7 @@ table th, td{
     background: rgba(255, 255, 255, 0.1);
     padding: 1rem;
     margin-bottom: 1rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255);
     font-family: Inter;    
     font-size: 16px;    
     font-weight: 400;
@@ -716,7 +710,7 @@ textarea {
     background: rgba(255, 255, 255, 0.1);
         padding: 1rem;
     margin-bottom: 1rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255);
     font-family: Inter;    
     font-size: 16px;    
     font-weight: 400;
@@ -724,7 +718,9 @@ textarea {
 }
 .FAQ-hr{
     width: 70%;
-    margin: 20px auto;
+    margin: 40px auto;
+    border: 2px solid rgba(209, 208, 208, 0.932);
+    
 
 }
 .join-meeting{
@@ -732,23 +728,23 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
     margin: 20px auto;
+    background: rgba(34, 34, 34, 0.8); 
+    border: 2px solid rgb(230, 83, 60);  
 }
-.join-meeting p{
+.join-meeting p ,.join-meeting button{
     margin-bottom: 20px;
 }
 
 
+/* My container (FAQ content)  style end */
 
-
-/* My container (FAQ content)  style start */
 
 /* footer style start */
 
 .footer-container{
-    border: 2px solid blue;
-    height: 500px;
+    height: 400px;
     max-width: 1060px;
     margin: 0px auto;
     display: grid;
@@ -756,32 +752,64 @@ textarea {
     justify-content: space-between;
     gap: 24px;
 }
-.footer-card-1,.footer-card-2,.footer-card-3{
-    border: 2px solid red;
-    grid-column: span 4;
+.footer-card-1{
+    grid-column: 1/span 4;
     text-align: left;
+}
+.footer-card-2{
+    grid-column: 6/span 3;
+    text-align: left;
+}
+.footer-card-3{
+    grid-column: 9/span 3;
+    text-align: left;
+}
+.footer-card-1 h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;    
+    font-size: 4.5rem;    
+    font-weight: 800;
+    margin: 1rem 0;
+}
+.footer-card-1 p{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;    
-    font-size: 1rem;    
-    font-weight: 400;
-    padding-top:5rem ;
-    padding-left: 1rem;
+    font-size: 0.8rem;    
+    font-weight: 400;    
+    line-height: 24px;
+
+}
+.footer-card-2 h3,.footer-card-3 h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;    
+    font-size: 2rem;    
+    font-weight: 700;
+    margin: 2rem 0;
 }
 
 .footer-card-2 li,.footer-card-3 li{
     list-style: none;
-    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;    
+    font-size: 1.2rem;    
+    font-weight: 400;
+    margin: 1.2rem 0;
 }
 
 hr{
     max-width: 1060px;
-    color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 0px auto;
 }
 .copyright{
-    border: 2px solid red;
     max-width: 1060px;
     margin: 0px auto;
     text-align: center;
     padding: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
 }
+
 /* footer style end */

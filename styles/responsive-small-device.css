@@ -205,7 +205,6 @@
     /* Team style start */
     
     .Team-card {
-        border: 2px solid red;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
@@ -233,10 +232,10 @@
 }
 
 .footer-card-1,.footer-card-2,.footer-card-3{
-    border: 2px solid red;
     width: 100%;
+    grid-column: span 12;
     height: auto;
-    padding-bottom: 2rem;
+    padding: 1rem;
 }
 
 /* footer style end */
