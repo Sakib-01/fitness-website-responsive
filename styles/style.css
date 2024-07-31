@@ -515,6 +515,10 @@ table th, td{
     font-weight: 400;
 }
 
+.input-2 select , .input-3 select{
+    border-right: 1rem solid transparent;
+}
+
 /* BMI style end */
 
 /* Team style start */
